@@ -2,6 +2,8 @@
     VARIABLES
 --------------*/
 :root {
-    --ms-primary-color: #f8f9fa;
-    --ms-secondary-color: #ffffff;
+    --ms-first-color: #f8f9fa;
+    --ms-second-color: #ffffff;
+    --ms-third-color: #061e34;
+    --ms-fourth-color: #1c71e8;
 }

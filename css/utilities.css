@@ -1,21 +1,37 @@
 /*--------------------
     BACKGROUND COLORS
 ---------------------*/
-.ms-bg-primary {
-    background-color: var(--ms-primary-color);
+.ms-bg-first {
+    background-color: var(--ms-first-color);
 }
-.ms-bg-secondary {
-    background-color: var(--ms-secondary-color);
+.ms-bg-second {
+    background-color: var(--ms-second-color);
+}
+.ms-bg-third {
+    background-color: var(--ms-third-color);
+}
+.ms-bg-fourth {
+    background-color: var(--ms-fourth-color);
 }
 /*--------------------
     COLORS
 ---------------------*/
-.ms-color-primary {
-    color: var(--ms-primary-color);
+.ms-color-first {
+    color: var(--ms-first-color);
 }
-.ms-color-secondary {
-    color: var(--ms-secondary-color);
+.ms-color-second {
+    color: var(--ms-second-color);
+}
+.ms-color-third {
+    color: var(--ms-third-color);
+}
+.ms-color-fourth {
+    color: var(--ms-fourth-color);
 }
 /*--------------------
     CONTAINERS
 ---------------------*/
+.page-container {
+    height: calc(100vh - 70px);
+    display: flex;
+}
