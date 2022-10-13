@@ -1,11 +1,21 @@
 /*--------------------
     BACKGROUND COLORS
 ---------------------*/
-
+.ms-bg-primary {
+    background-color: var(--ms-primary-color);
+}
+.ms-bg-secondary {
+    background-color: var(--ms-secondary-color);
+}
 /*--------------------
     COLORS
 ---------------------*/
-
+.ms-color-primary {
+    color: var(--ms-primary-color);
+}
+.ms-color-secondary {
+    color: var(--ms-secondary-color);
+}
 /*--------------------
     CONTAINERS
 ---------------------*/
