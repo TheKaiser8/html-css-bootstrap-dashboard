@@ -2,7 +2,7 @@
     ASIDE
 ----------------------*/
 aside {
-    width: 200px;
+    width: auto;
     height: 100%;
     flex-shrink: 0;
     flex-direction: column;
@@ -12,13 +12,21 @@ aside {
 .ms-list-block {
     list-style: none;
 }
-.ms-list-block a {
+.aside-nav .ms-list-block a, .ms-link-account {
     text-decoration: none;
     color: inherit;
 }
 /*--------------------
     ASIDE HOVER
 ----------------------*/
+.ms-link-account:hover {
+    color: var(--ms-second-color);
+}
 /*--------------------
     ASIDE RESPONSIVE
 ----------------------*/
+@media screen and (max-width: 768px) {
+    aside .hide-desktop {
+        display: none;
+    }
+}
