@@ -1,3 +1,8 @@
 /*----------------
     BUTTONS
 ------------------*/
+.ms-button-header {
+    background-color: transparent;
+    border: none;
+    color: var(--ms-color-orange);
+}

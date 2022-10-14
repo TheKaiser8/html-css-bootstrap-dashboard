@@ -36,15 +36,25 @@
                 <div class="col-auto">
                     <nav class="ms-color-gray">
                         <ul class="ms-list-reset d-flex">
-                            <li class="px-2">
-                                <a href=""><i class="fa-solid fa-list"></i></a>
+                            <li class="px-2 d-none d-lg-block">
+                                <a href="#"><i class="fa-solid fa-list"></i></a>
                             </li>
-                            <li class="px-2">
-                                <a href=""><i class="fa-solid fa-circle-question"></i></a>
+                            <li class="px-2 d-none d-lg-block">
+                                <a href="#"><i class="fa-solid fa-circle-question"></i></a>
                             </li>
-                            <li class="px-2">
-                                <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                            <li class="px-2 d-none d-lg-block">
+                                <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                             </li>
+                            <div class="dropdown">
+                                <button class="ms-button-header" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                            </div>
                         </ul>
                     </nav>
                 </div>
