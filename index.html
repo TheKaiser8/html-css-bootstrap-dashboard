@@ -18,47 +18,69 @@
     <!-- /Font-awesome --> 
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="ms-bg-first">
     <!-- header -->
-    <header class="ms-bg-first py-2">
-        <div class="container-fluid ms-bg-second h-100 py-1">
-            <div class="row align-items-center h-100">
-                <div class="col-2">Logo</div>
-                <div class="col-8">Search</div>
-                <div class="col-2">Nav</div>
+    <header class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row align-items-center ms-bg-second">
+                <div class="col-auto">
+                    <img class="ms-img-logo d-none d-lg-block" src="img/logo.svg" alt="Logo Boolean">
+                    <img class="ms-img-logo d-lg-none" src="img/mobile-logo.png" alt="Logo Boolean mobile">
+                </div>
+                <div class="col">
+                    <form class="d-flex align-items-center ms-form-search" role="search">
+                        <i class="fa-solid fa-magnifying-glass ms-icon-search"></i>
+                        <input class="form-control ms-search-bar me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    </form>
+                </div>
+                <div class="col-auto">
+                    <nav class="ms-color-gray">
+                        <ul class="ms-list-reset d-flex">
+                            <li class="px-2">
+                                <a href=""><i class="fa-solid fa-list"></i></a>
+                            </li>
+                            <li class="px-2">
+                                <a href=""><i class="fa-solid fa-circle-question"></i></a>
+                            </li>
+                            <li class="px-2">
+                                <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
     <!-- /header -->
     <div class="page-container">
         <!-- aside -->
-        <aside class="ms-bg-third ms-color-second">
+        <aside class="ms-bg-third ms-color-second p-3 p-lg-4">
             <nav class="aside-nav h-100 d-flex flex-column">
                 <ul class="ms-list-reset">
-                    <li class="my-3">
+                    <li class="ms-list-item">
                         <a href="#">
                             <i class="fa-solid fa-house ms-icon-aside"></i>
-                            <span class="hide-desktop ms-3">Home</span>
+                            <span class="d-none d-lg-block ms-3">Home</span>
                         </a>
                     </li >
-                    <li class="my-3">
+                    <li class="ms-list-item">
                         <a href="#">
                             <i class="fa-solid fa-chart-simple ms-icon-aside"></i>
-                            <span class="hide-desktop ms-3">Stats</span>
+                            <span class="d-none d-lg-block ms-3">Stats</span>
                         </a>
                     </li>
-                    <li class="my-3">
+                    <li class="ms-list-item">
                         <a href="#">
                             <i class="fa-solid fa-signal ms-icon-aside"></i>
-                            <span class="hide-desktop ms-3">Signals</span>
+                            <span class="d-none d-lg-block ms-3">Signals</span>
                         </a>
                     </li>
                 </ul>
                 <ul class="ms-list-reset mt-auto">
-                    <li>
+                    <li class="ms-list-item">
                         <a href="#">
                             <i class="fa-solid fa-gear ms-icon-aside"></i>
-                            <span class="hide-desktop ms-3">Admin</span>
+                            <span class="d-none d-lg-block ms-3">Admin</span>
                         </a>
                     </li>
                 </ul>
@@ -66,7 +88,7 @@
         </aside>
         <!-- /aside -->
         <!-- main -->
-        <main class="ms-bg-first">
+        <main>
             <!-- section badge -->
             <section class="container-fluid">
                 <div class="row ms-bg-fourth ms-color-second">

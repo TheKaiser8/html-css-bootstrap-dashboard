@@ -2,6 +2,25 @@
     HEADER
 --------------*/
 header {
-    height: 70px;
+    height: 4.375rem;
     background-color: var(--ms-primary-color);
+}
+.ms-img-logo {
+    max-height: 2.875rem;
+}
+.ms-form-search {
+    background-color: var(--ms-first-color-dark);
+    border-radius: .375rem;
+    padding-left: 0.5rem;
+}
+.ms-search-bar {
+    background-color: var(--ms-first-color-dark);
+    border: none;
+    position: relative;
+}
+.ms-search-bar::placeholder {
+    color: #757575;
+}
+.ms-search-bar:focus {
+    box-shadow: none;
 }

@@ -3,7 +3,9 @@
 --------------*/
 :root {
     --ms-first-color: #f8f9fa;
+    --ms-first-color-dark: #e5e5e5;
     --ms-second-color: #ffffff;
     --ms-third-color: #061e34;
     --ms-fourth-color: #1c71e8;
+    --ms-color-gray: #5a5858;
 }

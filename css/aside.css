@@ -5,26 +5,20 @@ aside {
     width: auto;
     height: 100%;
     flex-shrink: 0;
-    padding: 1.875rem;
     background-image: url('../img/sidebar-bg.png');
 }
-.ms-list-reset {
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
+aside .ms-list-item {
+    padding: 0.5rem;
 }
-.aside-nav .ms-list-reset a {
-    text-decoration: none;
-    color: inherit;
+aside .ms-list-item a {
+    display: flex;
 }
 /*--------------------
     ASIDE HOVER
 ----------------------*/
+aside .ms-list-item:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
 /*--------------------
     ASIDE RESPONSIVE
 ----------------------*/
-@media screen and (max-width: 768px) {
-    aside .hide-desktop {
-        display: none;
-    }
-}

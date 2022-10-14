@@ -28,10 +28,25 @@
 .ms-color-fourth {
     color: var(--ms-fourth-color);
 }
+.ms-color-gray {
+    color: var(--ms-color-gray);
+}
 /*--------------------
     CONTAINERS
 ---------------------*/
 .page-container {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 4.375rem);
     display: flex;
+}
+/*--------------------
+    COMMON
+---------------------*/
+.ms-list-reset {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.ms-list-reset a {
+    text-decoration: none;
+    color: inherit;
 }
