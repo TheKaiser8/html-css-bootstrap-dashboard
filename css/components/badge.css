@@ -1,0 +1,12 @@
+/*----------------
+    BADGE
+------------------*/
+.ms-badge {
+    background-color: var(--ms-fourth-color-dark);
+}
+.ms-badge-list {
+    display: flex;
+}
+.ms-badge-list > * {
+    margin-right: 0.5rem;
+}

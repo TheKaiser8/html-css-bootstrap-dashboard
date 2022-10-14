@@ -50,3 +50,6 @@
     text-decoration: none;
     color: inherit;
 }
+.ms-title-reset {
+    margin-bottom: 0;
+}
