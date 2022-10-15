@@ -1,0 +1,13 @@
+/*----------------
+    TABLE
+------------------*/
+.ms-table thead th:not(:first-child) {
+    text-align: center;
+}
+.ms-table tbody td:not(:first-child) {
+    text-align: center;
+}
+.ms-img-class {
+    max-height: 1.875rem;
+    margin-right: 0.5rem;
+}

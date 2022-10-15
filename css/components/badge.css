@@ -3,10 +3,15 @@
 ------------------*/
 .ms-badge {
     background-color: var(--ms-fourth-color-dark);
+    cursor: pointer;
 }
 .ms-badge-list {
     display: flex;
 }
 .ms-badge-list > * {
     margin-right: 0.5rem;
+}
+.ms-text-bg-warning {
+    color: var(--ms-second-color);
+    background-color: #ffc007;
 }

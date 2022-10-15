@@ -13,4 +13,8 @@
 @import url('components/buttons.css');
 @import url('components/icon-custom.css');
 @import url('components/badge.css');
-
+@import url('components/card.css');
+/*----------------
+    CONTENT
+------------------*/
+@import url('content/table.css');
