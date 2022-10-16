@@ -5,6 +5,6 @@
     display: flex;
     justify-content: space-between;
 }
-.ms-col-50 {
-    width: 50%;
+.ms-col-40 {
+    width: 40%;
 }

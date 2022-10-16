@@ -6,3 +6,6 @@
     border: none;
     color: var(--ms-color-orange);
 }
+.ms-btn-secondary {
+    padding: .25rem .5rem;
+}
