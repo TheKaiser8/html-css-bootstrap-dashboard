@@ -133,7 +133,7 @@
                                 <div class="card">
                                     <div class="card-header d-flex justify-content-between">
                                         <h3>Prossime classi</h3>
-                                        <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-plus"></i></button>
+                                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa-solid fa-plus"></i></button>
                                     </div>
                                     <div class="card-body">
                                         <table class="table ms-table">
@@ -358,6 +358,26 @@
         </main>
         <!-- /main -->
     </div>
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Aggiungi Classe</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mb-3">
+                <label for="classname" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="classname" placeholder="Classe ---">
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Data inizio</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+            <button type="button" class="btn btn-primary">Salva</button>
+            <button type="button" class="btn btn-warning">Reset</button>
+        </div>
+      </div>
+    <!-- /offcanvas -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
