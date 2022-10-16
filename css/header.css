@@ -23,4 +23,5 @@ header {
 }
 .ms-search-bar:focus {
     box-shadow: none;
+    background-color: var(--ms-first-color-dark);
 }
