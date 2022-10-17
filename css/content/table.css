@@ -11,3 +11,9 @@
     max-height: 1.875rem;
     margin-right: 0.5rem;
 }
+/*----------------
+    TABLE HOVER
+------------------*/
+.ms-table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}

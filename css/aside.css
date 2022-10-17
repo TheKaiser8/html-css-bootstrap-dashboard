@@ -9,6 +9,7 @@ aside {
 }
 aside .ms-list-item {
     padding: 0.5rem;
+    transition: background 0.1s;
 }
 aside .ms-list-item a {
     display: flex;
@@ -19,6 +20,3 @@ aside .ms-list-item a {
 aside .ms-list-item:hover {
     background: rgba(255, 255, 255, 0.3);
 }
-/*--------------------
-    ASIDE RESPONSIVE
-----------------------*/

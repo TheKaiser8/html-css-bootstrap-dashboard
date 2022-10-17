@@ -2,8 +2,9 @@
     BADGE
 ------------------*/
 .ms-badge {
-    background-color: var(--ms-fourth-color-dark);
+    background: rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    transition: background 0.1s;
 }
 .ms-badge-list {
     display: flex;
@@ -14,4 +15,10 @@
 .ms-text-bg-warning {
     color: var(--ms-second-color);
     background-color: #ffc007;
+}
+/*----------------
+    BADGE HOVER
+------------------*/
+.ms-badge:hover {
+    background: rgba(0, 0, 0, 0.4);
 }
